@@ -1,0 +1,58 @@
+
+.jumbotron{
+    background: url(pictures/Aurora_.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+.logo{
+    width: 75;
+    height: 75;
+    padding-top: 8px;
+    margin-bottom: 50;
+}
+/*edit text content*/
+.features{
+    color: white;
+}
+.features .btn-default{
+    font-weight: bold;
+    color: white;
+    background-color: rgba(145, 82, 58, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 15px;
+}
+.features .btn-default:hover{
+    background-color: rgb(145, 82, 58);
+}
+.trial{
+    text-align: center;
+    padding: 20px 0px 40px;
+}
+@media(min-width:480px) and (max-width:480px){
+    .jumbotron{
+        height: 410px;
+        margin: 0px;
+    }
+    .logo{
+        height : 50px;
+        width : 50px;
+    }
+    .features h1{
+        padding-top: 30px;
+    }
+}
+#apple{
+    height : 70px;
+}
+.footer{
+    background-color: grey;
+    font-size: 10px;
+    padding: 10px 0px;
+}
+.trial{
+/*    width:200px;*/
+/*    height:70px;*/
+/*    margin:36px;*/
+}
